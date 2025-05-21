@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {Routes, Route, Link} from "react-router-dom";
 
-function App() {
-  return (
+import Accueil from "./pages/Accueil";
+import Contact from "./pages/Contact";
+import Mentions from "./pages/Mentions";
+import Realisations from "./pages/Realisations";
+import Services from "./pages/Services";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Modale from "./components/Modale";
+
+export default function App(){
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <Link to="/">Accueil</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/mentions">Mentions</Link>
+        <Link to="/realisations">Realisations</Link>
+        <Link to="/services">Services</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Accueil/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
+        <Route path="/mentions" element={<Mentions/>}></Route>
+        <Route path="/realisations" element={<Realisations/>}></Route>
+        <Route path="/services" element={<Services/>}></Route>
+      </Routes>
     </div>
   );
 }
-
-export default App;
