@@ -16,7 +16,6 @@ header li{
 .nav-link:hover{
     border-bottom: solid 2px white;
     color:white;
-    width: auto;
 }
 
 button.navbar-toggler{
