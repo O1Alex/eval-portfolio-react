@@ -25,12 +25,11 @@ export default function App(){
       <Routes>
         <Route element={<Layout/>}> 
           <Route index element={<Accueil/>}/>
-          <Route path="/Accueil" element={<Accueil/>}></Route>
+          <Route path="/accueil" element={<Accueil/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
           <Route path="/mentions" element={<Mentions/>}></Route>
           <Route path="/realisations" element={<Realisations/>}></Route>
           <Route path="/services" element={<Services/>}></Route>
-
         </Route>
       </Routes>
     </div>

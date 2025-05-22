@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="list-footer col">
                         <h3>John Doe</h3>
                         <ul className="list-unstyled">
-                        <li><a href="/">40 Rue Laure Diebold 69009 Lyon, France</a>
+                        <li><a href="/">40 Rue Laure Diebold <br /> 69009 Lyon, France</a>
                         </li>
                         <li><a href="/">10 20 30 40 50</a>
                         </li>
