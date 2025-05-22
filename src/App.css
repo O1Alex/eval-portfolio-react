@@ -64,3 +64,12 @@ fieldset input{
 textarea{
     width: 100%;
 }
+
+/* PORTFOLIO */
+.card-footer{
+    width: 100%;
+}
+
+.button-portfolio:hover{
+    opacity: 0.7;
+}
