@@ -1,13 +1,11 @@
 import React from "react";
-import '../App.css';
 
 const Services = () => {
     return(
-    <div className="Services">
-        <main>
+        <main className="mt-4 mb-5">
             <div className="services d-flex flex-column justify-content-center align-items-center mt-2 mb-2">
                 <img src="/banner.jpg" alt="baniere"/>
-                <h1 className="mt-4">Mon offre de Services</h1>
+                <h1 className="mt-5">Mon offre de Services</h1>
                 <p className="description-element mb-0">Voici les prestations sur lesquelles je peux intervenir</p>      
             </div>
 
@@ -16,6 +14,7 @@ const Services = () => {
             <div className="container">
                 <div className="card-service row row-cols-1 row-cols-md-3 g-3 mb-5">
 
+                    {/* Premiere Card */}
                     <div className="col">
                         <div className="card d-flex column flex-column align-items-center p-3">
                             <div className="m-5">
@@ -31,6 +30,7 @@ const Services = () => {
                         </div>
                     </div>
 
+                    {/* Deuxième Card */}
                     <div className="col">
                         <div className="card d-flex column flex-column align-items-center p-3">
                             <div className="m-5">
@@ -47,6 +47,7 @@ const Services = () => {
                         </div>
                     </div>
 
+                    {/* Troisieme Card */}
                     <div className="col">
                         <div className="card d-flex column flex-column align-items-center p-3">
                             <div className="m-5">
@@ -64,7 +65,6 @@ const Services = () => {
                 </div>
             </div>
         </main>
-    </div>
     )
 }
 

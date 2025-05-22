@@ -13,6 +13,8 @@ const Realisations = () => {
 
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-3 g-3">
+                    
+                    {/* Première card */}
                     <div class="col">
                         <div class="card">
                             <img src="/fresh-food.jpg" class="card-img-portfolio" alt="produits frais"/>
@@ -26,6 +28,8 @@ const Realisations = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Deuxième card */}
                     <div class="col">
                         <div class="card">
                             <img src="/restaurant-japonais.jpg" class="card-img-portfolio" alt="Restaurant japonais"/>
@@ -39,6 +43,8 @@ const Realisations = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Troisième card */}
                     <div class="col">
                         <div class="card">
                             <img src="espace-bien-etre.jpg" class="card-img-portfolio" alt="Bien être"/>
@@ -52,6 +58,8 @@ const Realisations = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Quatrième card */}
                     <div class="col">
                         <div class="card">
                             <img src="seo.jpg" class="card-img-portfolio" alt="SEO"/>
@@ -65,6 +73,8 @@ const Realisations = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Cinquième Card */}
                     <div class="col">
                         <div class="card">
                             <img src="coder.jpg" class="card-img-portfolio" alt="code informatique"/>
@@ -78,6 +88,8 @@ const Realisations = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Sixième Card */}
                     <div class="col">
                         <div class="card">
                             <img src="screens.jpg" class="card-img-portfolio" alt="site Web"/>

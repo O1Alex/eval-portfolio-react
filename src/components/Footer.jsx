@@ -8,6 +8,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="row row-cols-1 row-cols-md-3 py-5">
 
+                    {/* Informations */}
                     <div className="list-footer col">
                         <h3>John Doe</h3>
                         <ul className="list-unstyled">
@@ -37,6 +38,7 @@ const Footer = () => {
                         </div>
                     </div>
 
+                    {/* Liens site */}
                     <div className="list-footer col">
                         <h3>Lien utiles</h3>
                         <ul className="list-unstyled">
@@ -58,6 +60,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
+                    {/* Liens Réalisations */}
                     <div className="list-footer col">
                         <h3>Mes dernières réalisations</h3>
                         <ul className="list-unstyled">

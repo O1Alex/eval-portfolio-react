@@ -4,7 +4,7 @@ const Mentions = () => {
     return(
         <main className="mt-5 mb-5">
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <h1>Mentions légales</h1>
+                <h1 className="mt-4">Mentions légales</h1>
             </div>
 
             <div class="divider mb-5"></div>
@@ -12,6 +12,7 @@ const Mentions = () => {
             <div class="container">
                 <div class="accordion" id="accordionExample">
 
+                    {/* Premiere partie accordeon */}
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -50,6 +51,7 @@ const Mentions = () => {
                         </div>
                     </div>
 
+                     {/* Deuxième partie accordeon */}
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -69,6 +71,7 @@ const Mentions = () => {
                         </div>
                     </div>
 
+                    {/* Troisième partie accordeon */}
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">

@@ -1,14 +1,10 @@
 import React from "react";
 import {Routes, Route, Link} from "react-router-dom";
-
 import Accueil from "./pages/Accueil";
 import Contact from "./pages/Contact";
 import Mentions from "./pages/Mentions";
 import Realisations from "./pages/Realisations";
 import Services from "./pages/Services";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Modale from "./components/Modale";
 import Layout from "./pages/Layout"
 
 export default function App(){

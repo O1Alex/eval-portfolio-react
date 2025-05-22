@@ -4,7 +4,7 @@ const Contact = () => {
     return(
     <main className="mt-5 mb-5">
         <div className="contact d-flex flex-column justify-content-center align-items-center">
-                <h1 className="contact">Contact</h1>
+                <h1 className="contact mt-4">Contact</h1>
                 <p className="description-element">Pour me contacter en vu d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
 
         </div>
@@ -14,6 +14,7 @@ const Contact = () => {
         <div className="container">
             <div className="contact row-cols-1 row row-cols-md-2 mt-5 mb-5 shadow rounded-3">
                 
+                {/* Formulaire */}
                 <form className="form col pt-4 ps-4">
                     <fieldset>
                         <h2 className="border-bottom border-primary border-3 pb-2 pl-4 mb-5">Formulaire de contact</h2>
@@ -39,6 +40,7 @@ const Contact = () => {
                     
                 </form>
                 
+                {/* Descriptif */}
                 <div className="contact-detail col pt-4 pe-4">
                     <h2 className="border-bottom border-primary border-3 pb-2 mb-5">Mes coordonnées</h2>
                     <div> 

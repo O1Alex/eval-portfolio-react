@@ -7,12 +7,16 @@ header{
 header li{
     color: white;
 }
+
 .nav-link{
     color: white;
+
 }
 
 .nav-link:hover{
     border-bottom: solid 2px white;
+    color:white;
+    width: auto;
 }
 
 button.navbar-toggler{
