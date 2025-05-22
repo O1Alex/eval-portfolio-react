@@ -1,0 +1,28 @@
+
+/* HEADER */
+
+header{
+    color: white;
+}
+header li{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+
+}
+
+.nav-link:hover{
+    border-bottom: solid 2px white;
+    color:white;
+}
+
+button.navbar-toggler{
+    color: white;
+    opacity: 0.5;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
