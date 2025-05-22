@@ -40,7 +40,7 @@ const Footer = () => {
 
                     {/* Liens site */}
                     <div className="list-footer col">
-                        <h3>Lien utiles</h3>
+                        <h3>Liens utiles</h3>
                         <ul className="list-unstyled">
                         <li>
                             <a href="accueil">Accueil</a>

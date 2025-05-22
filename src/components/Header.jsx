@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
     return(
@@ -17,19 +18,19 @@ const Header = () => {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className ="navbar-nav text-uppercase">
                             <li className="nav-item">
-                                <a className="nav-link" href="/accueil">Home</a>
+                                <NavLink activeClassName="nav-link" className="nav-link text-light" to="/accueil">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/services">Services</a>
+                                <NavLink className="nav-link text-light" to="/services">Services</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/realisations">Portfolio</a>
+                                <NavLink className="nav-link text-light" to="/realisations">Portfolio</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/contact">Contact</a>
+                                <NavLink className="nav-link text-light" to="/contact">Contact</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/mentions">Mentions Légales</a>
+                                <NavLink className="nav-link text-light" to="/mentions">Mentions Légales</NavLink>
                             </li>
                         </ul>
                     </div>
