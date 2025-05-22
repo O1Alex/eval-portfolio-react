@@ -24,6 +24,11 @@ h2{
     font-size: 2vw;
 }
 
+img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
 /* CLASSES */
 .divider{
@@ -48,4 +53,14 @@ h2{
 /* SERVICES */
 .card-service p{
     text-align: center;
+}
+
+
+/* CONTACT */
+fieldset input{
+    width: 100%;
+    border: solid 1px;
+}
+textarea{
+    width: 100%;
 }
