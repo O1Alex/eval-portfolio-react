@@ -1,0 +1,24 @@
+
+/* FOOTER */
+
+.footer{
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer svg{
+    width: 34px;
+    height: 34px;
+    opacity: 0.5;
+}
+
+footer svg:hover{
+    opacity: 1;
+}
+.list-footer a:hover{
+    font-weight: bold;
+}

@@ -9,6 +9,7 @@ import Services from "./pages/Services";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Modale from "./components/Modale";
+import Layout from "./pages/Layout"
 
 export default function App(){
   return(
@@ -22,11 +23,15 @@ export default function App(){
       </nav>
 
       <Routes>
-        <Route path="/" element={<Accueil/>}></Route>
-        <Route path="/contact" element={<Contact/>}></Route>
-        <Route path="/mentions" element={<Mentions/>}></Route>
-        <Route path="/realisations" element={<Realisations/>}></Route>
-        <Route path="/services" element={<Services/>}></Route>
+        <Route element={<Layout/>}> 
+          <Route index element={<Accueil/>}/>
+          <Route path="/Accueil" element={<Accueil/>}></Route>
+          <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/mentions" element={<Mentions/>}></Route>
+          <Route path="/realisations" element={<Realisations/>}></Route>
+          <Route path="/services" element={<Services/>}></Route>
+
+        </Route>
       </Routes>
     </div>
   );
