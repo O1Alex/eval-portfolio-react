@@ -21,7 +21,7 @@ const Realisations = () => {
                             <div class="card-body d-flex column flex-column align-items-center">
                                 <h5 class="card-title">Fresh Food</h5>
                                 <p class="card-text">Site de vente de produits frais en ligne</p>
-                                <a href="#" class="button-portfolio btn btn-primary ">Fermer</a>
+                                <a href="#" class="button-portfolio btn btn-primary ">Voir le site</a>
                             </div>
                             <div class="card-footer d-flex column flex-column align-items-center bg-secondary-50 pb-0">
                                 <p class="">Site réalisé avec PHP et MySQL</p>
@@ -36,7 +36,7 @@ const Realisations = () => {
                             <div class="card-body d-flex column flex-column align-items-center">
                                 <h5 class="card-title">Restaurant Akira</h5>
                                 <p class="card-text">Site de vente de produits frais en ligne</p>
-                                <a href="#" class="button-portfolio btn btn-primary ">Fermer</a>
+                                <a href="#" class="button-portfolio btn btn-primary ">Voir le site</a>
                             </div>
                             <div class="card-footer d-flex column flex-column align-items-center bg-secondary-50 pb-0">
                                 <p class="">Site réalisé avec WordPress</p>
@@ -51,7 +51,7 @@ const Realisations = () => {
                             <div class="card-body d-flex column flex-column align-items-center">
                                 <h5 class="card-title">Espace bien-être</h5>
                                 <p class="card-text">Site de vente de produits bien-être en ligne</p>
-                                <a href="#" class="button-portfolio btn btn-primary ">Fermer</a>
+                                <a href="#" class="button-portfolio btn btn-primary ">Voir le site</a>
                             </div>
                             <div class="card-footer d-flex column flex-column align-items-center bg-secondary-50 pb-0">
                                 <p class="">Site réalisé avec LARAVEL</p>
@@ -66,7 +66,7 @@ const Realisations = () => {
                             <div class="card-body d-flex column flex-column align-items-center">
                                 <h5 class="card-title">SEO</h5>
                                 <p class="card-text">Amélioration du référencement d'un site e-commerce</p>
-                                <a href="#" class="button-portfolio btn btn-primary ">Fermer</a>
+                                <a href="#" class="button-portfolio btn btn-primary ">Voir le site</a>
                             </div>
                             <div class="card-footer d-flex column flex-column align-items-center bg-secondary-50 pb-0">
                                 <p class="">Utilisation des outils SEO</p>
@@ -81,7 +81,7 @@ const Realisations = () => {
                             <div class="card-body d-flex column flex-column align-items-center">
                                 <h5 class="card-title">Création d'une API</h5>
                                 <p class="card-text">Création d'une API RESTFULL publique</p>
-                                <a href="#" class="button-portfolio btn btn-primary ">Fermer</a>
+                                <a href="#" class="button-portfolio btn btn-primary ">Voir le site</a>
                             </div>
                             <div class="card-footer d-flex column flex-column align-items-center bg-secondary-50 pb-0">
                                 <p class="">PHP-SYMFONY</p>
@@ -96,7 +96,7 @@ const Realisations = () => {
                             <div class="card-body d-flex column flex-column align-items-center">
                                 <h5 class="card-title">Maquete d'un site web</h5>
                                 <p class="card-text">Création du prototype d'un site</p>
-                                <a href="#" class="button-portfolio btn btn-primary ">Fermer</a>
+                                <a href="#" class="button-portfolio btn btn-primary ">Voir le site</a>
                             </div>
                             <div class="card-footer d-flex column flex-column align-items-center bg-secondary-50 pb-0">
                                 <p class="d">Réalisé avec FIGMA</p>
